@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+	<mapping relationship-type="non-cumulative">
+		<class-a>com.music.domain.Artista</class-a>
+		<class-b>com.music.domain.Musico</class-b>
+		<field>
+			<a>id</a>
+			<b>identificador</b>
+		</field>
+		<field>
+			<a>name</a>
+			<b>nombre</b>
+		</field>
+		<field>
+			<a>followers</a>
+			<b>seguidores</b>
+		</field>
+		<field>
+			<a>img</a>
+			<b>imagen</b>
+		</field>
+		<field>
+			<a>from</a>
+			<b>de</b>
+		</field>
+		<field>
+			<a>url</a>
+			<b>ruta</b>
+		</field>
+		<field>
+			<a>tracks</a>
+			<b>pistas</b>
+		</field>		
+	</mapping>
+</mappings>
